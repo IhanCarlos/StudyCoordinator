@@ -6,3 +6,22 @@
 //
 
 import Foundation
+
+protocol ThirdViewModelCoordinatorDelegate {
+    func backPage()
+}
+
+class ThirdViewModel: ThirdViewModelCoordinatorDelegate {
+    
+    private var delegate : ThirdViewModelCoordinatorDelegate?
+
+    
+    init(delegate: ThirdViewModelCoordinatorDelegate) {
+        self.delegate = delegate
+    }
+    
+    func backPage() {
+        delegate?.backPage()
+    }
+    
+}

@@ -6,3 +6,26 @@
 //
 
 import Foundation
+
+protocol SecondViewModelCoordinatorDelegate {
+    func goToThird()
+    func backPage()
+}
+
+class SecondViewModel: SecondViewModelCoordinatorDelegate {
+    
+    private var delegate : SecondViewModelCoordinatorDelegate?
+
+    
+    init(delegate: SecondViewModelCoordinatorDelegate) {
+        self.delegate = delegate
+    }
+    
+    func goToThird() {
+        delegate?.goToThird()
+    }
+    
+    func backPage(){
+        delegate?.backPage()
+    }
+}

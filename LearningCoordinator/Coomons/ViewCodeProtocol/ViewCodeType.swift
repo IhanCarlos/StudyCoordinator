@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+protocol ViewCodeType {
+    func buildViewHierarchy()
+    func setupConstraints()
+    func setupAdditionalConfiguration()
+    func setupView()
+}
+
+extension ViewCodeType {
+    func setupView() {
+        buildViewHierarchy()
+        setupConstraints()
+        setupAdditionalConfiguration()
+    }
+    
+    func setupAdditionalConfiguration() {}
+}

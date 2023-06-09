@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+protocol FirstViewModelCoordinatorDelegate {
+    func goToSecond()
+}
+
+class FirstViewModel:FirstViewModelCoordinatorDelegate {
+    
+    private var delegate : FirstViewModelCoordinatorDelegate?
+    
+    init(delegate: FirstViewModelCoordinatorDelegate) {
+        self.delegate = delegate
+    }
+    
+    func goToSecond() {
+        delegate?.goToSecond()
+    }
+}

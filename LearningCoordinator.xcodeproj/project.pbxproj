@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		1EB581012A3109B500C26F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581002A3109B500C26F70 /* AppDelegate.swift */; };
-		1EB581032A3109B500C26F70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581022A3109B500C26F70 /* SceneDelegate.swift */; };
-		1EB581052A3109B500C26F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581042A3109B500C26F70 /* ViewController.swift */; };
-		1EB581082A3109B500C26F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB581062A3109B500C26F70 /* Main.storyboard */; };
 		1EB5810A2A3109B800C26F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB581092A3109B800C26F70 /* Assets.xcassets */; };
 		1EB5810D2A3109B800C26F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB5810B2A3109B800C26F70 /* LaunchScreen.storyboard */; };
+		1EB581262A3113AF00C26F70 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581252A3113AF00C26F70 /* FirstViewController.swift */; };
+		1EB581282A3113F200C26F70 /* ViewCodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581272A3113F200C26F70 /* ViewCodeType.swift */; };
+		1EB5812A2A3116AB00C26F70 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581292A3116AB00C26F70 /* FirstViewModel.swift */; };
+		1EB5812C2A31179A00C26F70 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5812B2A31179A00C26F70 /* SecondViewModel.swift */; };
+		1EB5812E2A3117B400C26F70 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5812D2A3117B400C26F70 /* SecondViewController.swift */; };
+		1EB581312A31186700C26F70 /* ThirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581302A31186700C26F70 /* ThirdViewModel.swift */; };
+		1EB581332A31188000C26F70 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581322A31188000C26F70 /* ThirdViewController.swift */; };
+		1EB581352A311A6400C26F70 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581342A311A6400C26F70 /* AppCoordinator.swift */; };
+		1EB581372A32254D00C26F70 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581362A32254D00C26F70 /* UIView+AutoLayout.swift */; };
+		1EB581392A32276F00C26F70 /* FirstCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB581382A32276F00C26F70 /* FirstCoordinator.swift */; };
+		1EB5813B2A326EBE00C26F70 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5813A2A326EBE00C26F70 /* SecondCoordinator.swift */; };
+		1EB5813D2A327E0F00C26F70 /* ThirdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5813C2A327E0F00C26F70 /* ThirdCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EB580FD2A3109B500C26F70 /* LearningCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB581002A3109B500C26F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EB581022A3109B500C26F70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EB581042A3109B500C26F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1EB581072A3109B500C26F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EB581092A3109B800C26F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EB5810C2A3109B800C26F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EB5810E2A3109B800C26F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB581252A3113AF00C26F70 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1EB581272A3113F200C26F70 /* ViewCodeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeType.swift; sourceTree = "<group>"; };
+		1EB581292A3116AB00C26F70 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		1EB5812B2A31179A00C26F70 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		1EB5812D2A3117B400C26F70 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1EB581302A31186700C26F70 /* ThirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewModel.swift; sourceTree = "<group>"; };
+		1EB581322A31188000C26F70 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		1EB581342A311A6400C26F70 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1EB581362A32254D00C26F70 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		1EB581382A32276F00C26F70 /* FirstCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCoordinator.swift; sourceTree = "<group>"; };
+		1EB5813A2A326EBE00C26F70 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
+		1EB5813C2A327E0F00C26F70 /* ThirdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,160 @@
 		1EB580FF2A3109B500C26F70 /* LearningCoordinator */ = {
 			isa = PBXGroup;
 			children = (
+				1EB5811A2A310CD600C26F70 /* Coomons */,
+				1EB581192A310CB600C26F70 /* AppCoordinator */,
+				1EB581142A310C2C00C26F70 /* Features */,
 				1EB581002A3109B500C26F70 /* AppDelegate.swift */,
-				1EB581022A3109B500C26F70 /* SceneDelegate.swift */,
-				1EB581042A3109B500C26F70 /* ViewController.swift */,
-				1EB581062A3109B500C26F70 /* Main.storyboard */,
 				1EB581092A3109B800C26F70 /* Assets.xcassets */,
 				1EB5810B2A3109B800C26F70 /* LaunchScreen.storyboard */,
 				1EB5810E2A3109B800C26F70 /* Info.plist */,
 			);
 			path = LearningCoordinator;
+			sourceTree = "<group>";
+		};
+		1EB581142A310C2C00C26F70 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581152A310C4500C26F70 /* FirstViewController */,
+				1EB5811D2A3112CE00C26F70 /* SecondViewController */,
+				1EB581212A31133400C26F70 /* ThirdViewController */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1EB581152A310C4500C26F70 /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581182A310C9800C26F70 /* Coordinator */,
+				1EB581162A310C7200C26F70 /* ViewModel */,
+				1EB581172A310C8C00C26F70 /* ViewController */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		1EB581162A310C7200C26F70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581292A3116AB00C26F70 /* FirstViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1EB581172A310C8C00C26F70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581252A3113AF00C26F70 /* FirstViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1EB581182A310C9800C26F70 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581382A32276F00C26F70 /* FirstCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1EB581192A310CB600C26F70 /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581342A311A6400C26F70 /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		1EB5811A2A310CD600C26F70 /* Coomons */ = {
+			isa = PBXGroup;
+			children = (
+				1EB5811C2A310D1500C26F70 /* ViewCodeProtocol */,
+				1EB5813E2A33766600C26F70 /* Extension */,
+			);
+			path = Coomons;
+			sourceTree = "<group>";
+		};
+		1EB5811C2A310D1500C26F70 /* ViewCodeProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581272A3113F200C26F70 /* ViewCodeType.swift */,
+			);
+			path = ViewCodeProtocol;
+			sourceTree = "<group>";
+		};
+		1EB5811D2A3112CE00C26F70 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EB5811E2A3112E600C26F70 /* Coordinator */,
+				1EB581202A31130200C26F70 /* ViewModel */,
+				1EB5811F2A3112F100C26F70 /* ViewController */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
+		1EB5811E2A3112E600C26F70 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1EB5813A2A326EBE00C26F70 /* SecondCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1EB5811F2A3112F100C26F70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EB5812D2A3117B400C26F70 /* SecondViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1EB581202A31130200C26F70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1EB5812B2A31179A00C26F70 /* SecondViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1EB581212A31133400C26F70 /* ThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581242A31138400C26F70 /* Coordinator */,
+				1EB581232A31137600C26F70 /* ViewModel */,
+				1EB581222A31136900C26F70 /* ViewController */,
+			);
+			path = ThirdViewController;
+			sourceTree = "<group>";
+		};
+		1EB581222A31136900C26F70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581322A31188000C26F70 /* ThirdViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1EB581232A31137600C26F70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581302A31186700C26F70 /* ThirdViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1EB581242A31138400C26F70 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1EB5813C2A327E0F00C26F70 /* ThirdCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1EB5813E2A33766600C26F70 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1EB581362A32254D00C26F70 /* UIView+AutoLayout.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +290,6 @@
 			files = (
 				1EB5810D2A3109B800C26F70 /* LaunchScreen.storyboard in Resources */,
 				1EB5810A2A3109B800C26F70 /* Assets.xcassets in Resources */,
-				1EB581082A3109B500C26F70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +300,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB581052A3109B500C26F70 /* ViewController.swift in Sources */,
+				1EB581352A311A6400C26F70 /* AppCoordinator.swift in Sources */,
+				1EB5812E2A3117B400C26F70 /* SecondViewController.swift in Sources */,
+				1EB5813B2A326EBE00C26F70 /* SecondCoordinator.swift in Sources */,
+				1EB5812C2A31179A00C26F70 /* SecondViewModel.swift in Sources */,
+				1EB581332A31188000C26F70 /* ThirdViewController.swift in Sources */,
+				1EB581392A32276F00C26F70 /* FirstCoordinator.swift in Sources */,
+				1EB581282A3113F200C26F70 /* ViewCodeType.swift in Sources */,
+				1EB581372A32254D00C26F70 /* UIView+AutoLayout.swift in Sources */,
+				1EB581312A31186700C26F70 /* ThirdViewModel.swift in Sources */,
+				1EB5813D2A327E0F00C26F70 /* ThirdCoordinator.swift in Sources */,
+				1EB5812A2A3116AB00C26F70 /* FirstViewModel.swift in Sources */,
 				1EB581012A3109B500C26F70 /* AppDelegate.swift in Sources */,
-				1EB581032A3109B500C26F70 /* SceneDelegate.swift in Sources */,
+				1EB581262A3113AF00C26F70 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1EB581062A3109B500C26F70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EB581072A3109B500C26F70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1EB5810B2A3109B800C26F70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +455,6 @@
 				INFOPLIST_FILE = LearningCoordinator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,9 +464,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ihanCarlos.LearningCoordinator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +484,6 @@
 				INFOPLIST_FILE = LearningCoordinator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,9 +493,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ihanCarlos.LearningCoordinator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
